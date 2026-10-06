@@ -139,6 +139,15 @@ nav a{display:block}
  .hx-block{flex:1 1 14rem}
 }
 </style>
+<style id="hx-mobile">
+@media(max-width:1000px){
+ .hx-inner{display:flex;flex-direction:column;gap:0;min-height:0}
+ .hx-text{order:1;padding:32px 0 8px}
+ .hx-photo{order:2;position:relative;right:auto;bottom:auto;left:auto;top:auto;transform:none;width:100%;max-width:520px;margin:0 auto;opacity:1;-webkit-mask-image:none;mask-image:none}
+ .hx-side{order:3;flex-direction:column;gap:1.4rem;padding:8px 0 2rem}
+ .hx-block{flex:none}
+}
+</style>
 </head>
 <body>
 <header class="top"><div class="wrap"><a class="brand" href="#top">Lokesh Adithya Murugan</a>
