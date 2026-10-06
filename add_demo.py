@@ -8,7 +8,7 @@ Fill in the three settings below first. Safe to re-run: it replaces its own sect
 import re, sys
 
 # ---- SETTINGS ----------------------------------------------------------
-YOUTUBE_ID = "LXvA4tBJYKg"      # e.g. "dQw4w9WgXcQ" from youtube.com/watch?v=dQw4w9WgXcQ (unlisted video)
+YOUTUBE_ID = ""      # e.g. "dQw4w9WgXcQ" from youtube.com/watch?v=dQw4w9WgXcQ (unlisted video)
 DASHBOARD_URL = ""   # your live Streamlit dashboard address, or leave empty
 SHOTS = [            # (file in the shots/ folder, caption)
     ("shots/overview.jpg", "Overview: traffic, anomaly scores and protocols on the held-out IoT-23 test set (21,533 flows, mostly attack traffic)."),
@@ -28,7 +28,7 @@ CSS = """
 
 parts = ['<!--demo-start--><section id="demo"><div class="wrap"><h2>Dashboard demo</h2>']
 if YOUTUBE_ID:
-    parts.append('<div class="demo-video"><iframe src="https://www.youtube-nocookie.com/embed/%s" '
+    parts.append('<div class="demo-video"><iframe src="https://youtu.be/LXvA4tBJYKg" '
                  'title="PulseGuard dashboard walkthrough" loading="lazy" allowfullscreen></iframe></div>' % YOUTUBE_ID)
 if SHOTS:
     parts.append('<div class="shots">')
