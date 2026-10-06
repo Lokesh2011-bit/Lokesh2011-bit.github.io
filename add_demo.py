@@ -8,7 +8,7 @@ Fill in the three settings below first. Safe to re-run: it replaces its own sect
 import re, sys
 
 # ---- SETTINGS ----------------------------------------------------------
-YOUTUBE_ID = ""      # e.g. "dQw4w9WgXcQ" from youtube.com/watch?v=dQw4w9WgXcQ (unlisted video)
+YOUTUBE_ID = "LXvA4tBJYKg"      # e.g. "dQw4w9WgXcQ" from youtube.com/watch?v=dQw4w9WgXcQ (unlisted video)
 DASHBOARD_URL = ""   # your live Streamlit dashboard address, or leave empty
 SHOTS = [            # (file in the shots/ folder, caption)
     ("shots/overview.jpg", "Overview: traffic, anomaly scores and protocols on the held-out IoT-23 test set (21,533 flows, mostly attack traffic)."),
